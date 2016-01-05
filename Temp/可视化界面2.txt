@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>欢迎光临</title> </head>
+<body>
+<center> <b>欢迎光临咖啡店</b> </center>
+<p> <marquee border="0" align="center" scrolldelay="120">欢迎光临本店！请选择以下餐点！</marquee>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请&nbsp;选&nbsp;择&nbsp;要&nbsp;的&nbsp;饮&nbsp;品<select size="1" name="type">
+<option selected value="S1">摩卡咖啡(MafeMocha)</option>
+<option value="S2">卡布奇诺(Cappuccino)</option>
+<option value="S3">拿铁咖啡(Caffè Latte)</option>
+<option value="S4">浓缩咖啡(Espresso)</option>
+</select>
+<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+请选择:
+<input type="checkbox" name="size" value="NO">大杯&nbsp;
+<input type="checkbox" name="size" value="NO">中杯&nbsp;
+<input type="checkbox" name="size" value="NO">小杯&nbsp;
+<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+是否加糖:
+<input type="radio" name="like" value="YES">是&nbsp;
+<input type="radio" name="like" value="NO">否&nbsp;
+<p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+请选择饮品热度:
+<input type="radio" name="temperature" value="hot">加热(hot)&nbsp;
+<input type="radio" name="temperature" value="room">常温(room temperature)&nbsp;
+<input type="radio" name="temperature" value="freeze">加冰(freeze)&nbsp;
