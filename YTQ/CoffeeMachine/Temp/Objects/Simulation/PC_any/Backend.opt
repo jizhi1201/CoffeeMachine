@@ -1,0 +1,2 @@
+Program	"$(AS_CPU_PATH)/Program/a.out" -o "$(AS_CPU_PATH)/Program/Program.ox" -T SG4 -r Cyclic1   -G V4.1.2 
+program1	"$(AS_CPU_PATH)/program1/a.out" -o "$(AS_CPU_PATH)/program1/program1.ox" -T SG4 -r Cyclic4   -G V4.1.2 

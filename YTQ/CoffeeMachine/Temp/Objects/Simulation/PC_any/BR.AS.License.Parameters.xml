@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=*</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\CoffeeMachine.apj</ApjFullFileName>
+    <ProjectName>CoffeeMachine</ProjectName>
+    <ActiveConfigurationName>Simulation</ActiveConfigurationName>
+    <LicenseDataFolder>D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Temp\Objects\Simulation\PC_any</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>
