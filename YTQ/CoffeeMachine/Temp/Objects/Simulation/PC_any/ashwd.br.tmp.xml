@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?hwc2hwd version="1.1"?>
+<HWD Version="2.0" xmlns="http://br-automation.com/AR/IO/HWD">
+  <Hardware Family="4" ID="1A4000.00" Modno="3" UseType="1">
+    <Parameter ID="Transparent" Type="UDINT" Value="1" />
+    <Parameter ID="HwcCpuSlot" Type="UDINT" Value="0" />
+    <Parameter ID="HwcShortName" Value="AR000" />
+    <Resource ID="IF1">
+      <Parameter ID="IoBase0" Type="UDINT" Value="0x3f8" />
+      <Parameter ID="Interrupt" Type="UDINT" Value="4" />
+    </Resource>
+    <Resource ID="IF2">
+      <Parameter ID="IoBase0" Type="UDINT" Value="0x2f8" />
+      <Parameter ID="Interrupt" Type="UDINT" Value="3" />
+    </Resource>
+    <Resource ID="IF3">
+      <Parameter ID="BusAddress" Type="UDINT" Value="0x0d" />
+      <Parameter ID="PCIFuncNo" Type="UDINT" Value="0" />
+      <Parameter ID="MemEnable" Type="UDINT" Value="0" />
+      <Parameter ID="OfferedBus" Value="ETHERNET" />
+      <Parameter ID="Transparent" Type="UDINT" Value="0" />
+    </Resource>
+  </Hardware>
+</HWD>

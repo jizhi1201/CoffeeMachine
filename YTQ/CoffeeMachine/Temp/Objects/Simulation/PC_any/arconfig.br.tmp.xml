@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="1A4000.00">
+    <Parameter ID="HardwareModuleName" Value="PC_any" />
+  </Module>
+</IOCFG>

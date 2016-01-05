@@ -7,5 +7,8 @@
     <File Description="Exit code">Exit.cpp</File>
     <File Description="Local data types" Private="true">Types.typ</File>
     <File Description="Local variables" Private="true">Variables.var</File>
+    <File>auxiliary.h</File>
+    <File>class_dec.h</File>
+    <File>class_def.cpp</File>
   </Files>
 </Program>

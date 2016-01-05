@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.3.159"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\"
+  TempDirectory="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Temp\"
+  AutomationStudioVersion="4.2.3.159"
+  AutomationStudioEdition="Standard"
+  CrossReference="false"
+  ActiveConfiguration="Simulation"
+  CreateAnsiCDeclarations="false" />
