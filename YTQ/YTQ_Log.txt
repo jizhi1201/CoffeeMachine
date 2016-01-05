@@ -4,3 +4,4 @@
 嘗試了在組織中push自己的分支；
 新建了AS工程；
 在YTQ分支中刪除了不相關的文件；
+將之前CoffeeMaker_v1中的內容搬進來，但是發現矩陣變換的文件夾無法添加到AS工程路徑。
