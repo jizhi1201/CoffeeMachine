@@ -1,0 +1,31 @@
+ #include <iostream>
+ using namespace std;
+ template<typename T> 
+ class DrinkMachine { 
+ public: 
+   void makeDrink() { 
+     T* derived =(T*) this; 
+    this->boilWater(); 
+    derived->doPutIngredient(); 
+    derived->doPourInCup(); 
+    derived->doAddFlavoring(); 
+  }  
+protected: 
+ void boilWater() { 
+      cout << "boil some water" << endl; 
+    } 
+}; 
+
+class CoffeeMachine:public DrinkMachine<CoffeeMachine> { 
+friend DrinkMachine<CoffeeMachine>; 
+protected: 
+  void doPutIngredient() const { cout << "brew coffee in boiling water" << endl; } 
+  void doPourInCup() const { cout << "pour coffee in cup" << endl; } 
+  void doAddFlavoring() const {cout << "add sugar and milk." << endl; } 
+}; 
+int main() { 
+  cout << "Making Coffee" << endl; 
+  DrinkMachine<CoffeeMachine> *pCoffeeMachine = &CoffeeMachine(); 
+  pCoffeeMachine->makeDrink(); 
+  cout<<endl;
+} 
