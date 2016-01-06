@@ -1,0 +1,21 @@
+<html>
+<head> <title>饮片清单</title> </head>
+<body>
+<table border=1,align=center,bgcolor="orange",width=400,height=100>
+<caption> <b>单品咖啡</b> </caption>
+<tr>
+<th rowspan=3>品种</th>
+<th colspan=9>单价</th>
+<tr> <th colspan=3>大杯</th> <th colspan=3>中杯</th> <th colspan=3>小杯</th> </tr>
+<tr> <th>加热</th> <th>常温</th> <th>加冰</th> 
+<th>加热</th> <th>常温</th> <th>加冰</th> 
+<th>加热</th> <th>常温</th> <th>加冰</th>
+<tr>
+<tr><th>摩卡咖啡</th><th>12元</th><th>10元</th><th>12元</th>
+<th>10元</th><th>9元</th><th>10元</th><th>8元</th><th>7元</th><th>8元</th><tr>
+<tr><th>卡布奇诺</th><th>11元</th><th>9元</th><th>11元</th>
+<th>10元</th><th>8元</th><th>10元</th><th>9元</th><th>7元</th><th>9元</th><tr>
+<tr><th>拿铁咖啡</th><th>11元</th><th>9元</th><th>11元</th>
+<th>10元</th><th>8元</th><th>10元</th><th>9元</th><th>7元</th><th>9元</th><tr>
+<tr><th>浓缩咖啡</th><th>10元</th><th>8元</th><th>10元</th>
+<th>9元</th><th>7元</th><th>9元</th><th>8元</th><th>6元</th><th>8元</th><tr>
