@@ -10,5 +10,6 @@
     <File>auxiliary.h</File>
     <File>class_dec.h</File>
     <File>class_def.cpp</File>
+    <File>auxiliary.cpp</File>
   </Files>
 </Program>
