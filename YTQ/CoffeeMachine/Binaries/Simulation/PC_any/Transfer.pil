@@ -1,0 +1,11 @@
+AR000 "Update", "SourcePath='E:\AS\as\system\H0423\AR000' DestinationPath='..\..\..\Temp\Simulation\Simulation\PC_any'"
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0", "/RT=1000 /AM=*"
+Download: ".\ashwd.br", "SYSROM"
+Download: ".\asfw.br", "SYSROM"
+Download: ".\arconfig.br", "SYSROM"
+Download: ".\sysconf.br", "SYSROM"
+Warmstart
+Download: ".\runtime.br", "ROM"
+Download: ".\astime.br", "ROM"
+Download: ".\AsIecCon.br", "ROM"
+Download: ".\iomap.br", "ROM"

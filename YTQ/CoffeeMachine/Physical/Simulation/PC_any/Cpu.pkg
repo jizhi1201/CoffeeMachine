@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.3.159?>
+<Cpu xmlns="http://br-automation.co.at/AS/Cpu">
+  <Objects>
+    <Object Type="File" Description="Software configuration">Cpu.sw</Object>
+    <Object Type="File" Description="Permanent variables">Cpu.per</Object>
+    <Object Type="File" Description="IO mapping file">IoMap.iom</Object>
+    <Object Type="File" Description="PV mapping file">PvMap.vvm</Object>
+  </Objects>
+  <Configuration>
+    <AutomationRuntime Version="H4.23" />
+    <DefaultTargetMemory Tasks="UserROM" />
+  </Configuration>
+</Cpu>

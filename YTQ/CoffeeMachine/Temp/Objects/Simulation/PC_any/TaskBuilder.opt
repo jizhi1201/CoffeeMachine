@@ -1,0 +1,2 @@
+Program	"$(AS_CPU_PATH)/Program/Program.ox" -o "$(AS_CPU_PATH)/Program.br" -v V1.00.0 -f "$(AS_CPU_PATH)/NT.ofs" -offsetLT "$(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/LT.ofs" -T SG4  -M IA32  -B H4.23 -extConstants -r Cyclic1 -p 2 -s "Program"
+program1	"$(AS_CPU_PATH)/program1/program1.ox" -o "$(AS_CPU_PATH)/program1.br" -v V1.00.0 -f "$(AS_CPU_PATH)/NT.ofs" -offsetLT "$(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/LT.ofs" -T SG4  -M IA32  -B H4.23 -extConstants -r Cyclic4 -p 2 -s "Program"

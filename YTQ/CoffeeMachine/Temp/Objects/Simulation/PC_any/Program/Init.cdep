@@ -1,0 +1,15 @@
+$(AS_CPU_PATH)/Program/Init.cpp.o:
+$(AS_PROJECT_PATH)/Logical/Program/Init.cpp
+$(AS_GNU_INST_PATH)/i386-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/i386-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/Includes/Program/AsDefault.h
+$(AS_TEMP_PATH)/Includes/AsDefault.h
+$(AS_TEMP_PATH)/Includes/Runtime.h
+$(AS_TEMP_PATH)/Includes/Operator.h
+$(AS_TEMP_PATH)/Includes/astime.h
+$(AS_TEMP_PATH)/Includes/runtime.h
+$(AS_TEMP_PATH)/Includes/AsIecCon.h
+$(AS_TEMP_PATH)/Includes/globalTYP.h
+$(AS_TEMP_PATH)/Includes/globalVAR.h
+$(AS_TEMP_PATH)/Includes/Program/typesTYP.h
+$(AS_TEMP_PATH)/Includes/Program/variablesVAR.h

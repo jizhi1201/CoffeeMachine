@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.3.159?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="PC_any" Type="PC_any" Version="1.1.0.0" OrderNumber="PC">
+    <Parameter ID="ConfigurationID" Value="CoffeeMachine_Simulation" />
+    <Parameter ID="Cyclic1Duration" Value="100000" />
+    <Parameter ID="Cyclic1Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic2Duration" Value="200000" />
+    <Parameter ID="Cyclic2Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic3Duration" Value="500000" />
+    <Parameter ID="Cyclic3Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic4Duration" Value="1000000" />
+    <Parameter ID="Cyclic4Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic5Duration" Value="2000000" />
+    <Parameter ID="Cyclic5Tolerance" Value="10000000" />
+    <Parameter ID="Cyclic6Duration" Value="3000000" />
+    <Parameter ID="Cyclic6Tolerance" Value="12000000" />
+    <Parameter ID="Cyclic7Duration" Value="4000000" />
+    <Parameter ID="Cyclic7Tolerance" Value="12000000" />
+    <Parameter ID="Cyclic8Duration" Value="5000000" />
+    <Parameter ID="Cyclic8Tolerance" Value="30000000" />
+  </Module>
+</Hardware>

@@ -1,0 +1,5 @@
+AsHwd	 "$(AS_PROJECT_CONFIG_PATH)/Hardware.hw" -v V1.00.0 -S "PC_any" -o "$(AS_CPU_PATH)/ashwd.br" -T SG4 -B H4.23 -P "$(AS_PROJECT_PATH)" -c "$(AS_CONFIGURATION)" -zip -s PC_any -hwd
+AsFw	 "$(AS_PROJECT_CONFIG_PATH)/Hardware.hw" -v V1.00.0 -S "PC_any" -o "$(AS_CPU_PATH)/asfw.br" -T SG4 -B H4.23 -P "$(AS_PROJECT_PATH)" -c "$(AS_CONFIGURATION)" -zip -s PC_any -firmware
+arconfig	"$(AS_PROJECT_CPU_PATH)/IoMap.iom"  -arconfig -c Simulation -v V1.00.0 -S "PC_any" -o "$(AS_CPU_PATH)/arconfig.br" "$(AS_CPU_PATH)/ChannelConfiguration.xml" "$(AS_CPU_PATH)/HardwareConfiguration.xml" "$(AS_CPU_PATH)/ReActionTechnologyConfiguration.xml" -T SG4  -B H4.23 -P "$(AS_PROJECT_PATH)" -s "Simulation"
+sysconf	 -c Simulation -sysconf -S "PC_any" -o "$(AS_CPU_PATH)/sysconf.br" -T SG4  -B H4.23 -P "$(AS_PROJECT_PATH)" -s "Simulation"
+iomap	 -m "$(AS_CPU_PATH)/ConfigInfo.cfi" -g "$(AS_TEMP_PATH)/Objects/Declarations.lst" -x "$(AS_CPU_PATH)/ChannelConfiguration.xml" -v V1.00.0 -f "$(AS_CPU_PATH)" -iomap -o "$(AS_CPU_PATH)/iomap.br" -T SG4  -B H4.23 -P "$(AS_PROJECT_PATH)" -s "Simulation.PC_any"
