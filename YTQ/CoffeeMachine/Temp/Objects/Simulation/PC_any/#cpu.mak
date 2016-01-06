@@ -23,7 +23,7 @@ $(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/Transfer.lst
 
 $(AS_BINARIES_PATH)/$(AS_CONFIGURATION)/$(AS_PLC)/Transfer.lst: \
 	FORCE
-	@"$(AS_BIN_PATH)/BR.AS.FinalizeBuild.exe" "$(AS_PROJECT_PATH)/CoffeeMachine.apj" -t "$(AS_TEMP_PATH)" -o "$(AS_BINARIES_PATH)" -c "$(AS_CONFIGURATION)" -i "E:/AS/AS42" -S "PC_any"  -all -A "AR000" -pil   -swFiles "$(AS_PROJECT_PATH)/Physical/Simulation/PC_any/Cpu.sw" -C "/RT=1000 /AM=*" -D "/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0" -M IA32 -T SG4
+	@"$(AS_BIN_PATH)/BR.AS.FinalizeBuild.exe" "$(AS_PROJECT_PATH)/CoffeeMachine.apj" -t "$(AS_TEMP_PATH)" -o "$(AS_BINARIES_PATH)" -c "$(AS_CONFIGURATION)" -i "E:/AS/AS42" -S "PC_any"   -A "AR000" -pil   -swFiles "$(AS_PROJECT_PATH)/Physical/Simulation/PC_any/Cpu.sw" -C "/RT=1000 /AM=*" -D "/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0" -M IA32 -T SG4
 
 #nothing to do (just call module make files)
 

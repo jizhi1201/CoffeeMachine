@@ -5,8 +5,8 @@
   <Hardware Target="SG4"/>
   <Operation Delete="AsIecCon.br"/>
   <Operation Delete="astime.br"/>
-  <Operation Download="asfw.br" Memory="SystemROM"/>
   <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
   <Operation Download="arconfig.br" Memory="SystemROM"/>
   <Operation Download="sysconf.br" Memory="SystemROM"/>
   <Operation Restart="warm"/>
