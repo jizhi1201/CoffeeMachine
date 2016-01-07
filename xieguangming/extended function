@@ -1,0 +1,46 @@
+//将咖啡机的功能扩展为制作各种饮料的程序，例如又加入沏茶的程序框架
+//大致的结构框架如下
+#include <iostream>
+using namespace std;
+class DrinkMachine {
+public:
+  void makeDrink();
+protected:
+  void boilWater() { cout << "boil some water" << endl; }
+  virtual void doPutIngredient() const = 0;
+  virtual void doPourInCup() const = 0;
+  virtual void doAddFlavoring() const = 0;
+};
+void DrinkMachine::makeDrink() {
+  this->boilWater();
+  this->doPutIngredient();
+  this->doPourInCup();
+  this->doAddFlavoring();
+}
+
+class TeaMachine : public DrinkMachine {
+protected:
+  void doPutIngredient() const { cout << "steep tea in boiling water" << endl; }
+  void doPourInCup() const { cout << "pour tea in cup" << endl; } 
+  void doAddFlavoring() const {cout << "add lemon" << endl; } 
+};
+
+class CoffeeMachine : public DrinkMachine {
+protected:
+  void doPutIngredient() const { cout << "brew coffee in boiling water" << endl; }
+  void doPourInCup() const { cout << "pour coffee in cup" << endl; } 
+  void doAddFlavoring() const {cout << "add sugar and milk." << endl; } 
+};
+
+int main() {
+  cout << "Making Tea" << endl;
+    
+  DrinkMachine *theDrinkMachine = &TeaMachine();
+  theDrinkMachine->makeDrink();
+  
+  cout << endl;
+  
+  cout << "Making Coffee" << endl;
+  theDrinkMachine = &CoffeeMachine();
+  theDrinkMachine->makeDrink();
+}
