@@ -20,8 +20,8 @@ typedef struct
 
 extern InputCom input;
 
-InputCom Input();
-float Extraction(char str[40]);
+void Input();
+float Extraction(char* str);
 float Index1(int n);
 float Index2(int n);
 

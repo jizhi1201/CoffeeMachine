@@ -2,10 +2,9 @@
 
 InputCom input;
 
-InputCom Input()
+void Input()
 	{
 		char str[11];
-		InputCom input;
 		cout<<"Input OperationType 'S'or'M':"<<endl;
 		cin>>str;
 		strcpy(input.OperationType,str);
@@ -23,16 +22,14 @@ InputCom Input()
 				cout<<"Input para3:"<<endl;
 				cin>>str;
 				input.para3=Extraction(str);
-				return input;
 			}
 		else
 			{
 				input.para3=0;
-				return input;
 			}
 	}
 
-float Extraction(char str[11])
+float Extraction(char* str)
 	{
 		int i,k;
 		float a=0;
@@ -53,6 +50,7 @@ float Extraction(char str[11])
 					{
 						a+=((float)str[k+i]-48)*Index2(i);
 					}
+				a=-a;
 			}
 		else
 			{
