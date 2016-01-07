@@ -7,3 +7,5 @@
 將之前CoffeeMaker_v1中的內容搬進來，但是發現矩陣變換的文件夾無法添加到AS工程路徑。
 2016.01.06
 嘗試但並未解決路徑問題。
+2016.01.07
+白天終於解決了CoffeeMaker的bug，它現在可以記錄坐標系并依據指令變換坐標了。
