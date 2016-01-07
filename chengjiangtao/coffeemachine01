@@ -1,0 +1,165 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>coffemachine</title>
+<style type="text/css">
+<!--
+.STYLE2 {
+	font-size: xx-large;
+	font-family: "宋体";
+	font-weight: bold;
+	color: #0000CC;
+}
+body {
+	background-image: url(06.jpg);
+}
+.STYLE4 {
+	font-size: xx-large;
+	font-family: "宋体";
+	font-weight: bold;
+	font-style: italic;
+}
+.STYLE8 {font-family: "宋体"; font-weight: bold; font-size: x-large; }
+.STYLE18 {font-size: x-large; font-family: "宋体";}
+.STYLE19 {font-size: medium; font-family: "宋体"; font-weight: bold; }
+.STYLE20 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="STYLE2">欢迎来到小咔自动咖啡馆
+  </span>
+&nbsp;&nbsp;&nbsp;
+<table width="100%" height="548" border="0">
+  <tr>
+    <td width="43%"><div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <p align="center"><span class="STYLE4">菜单menu</span>&nbsp;</p>
+      <div align="center">
+        <table width="300" height="200" border="1">
+            <tr>
+              <td><div align="center" class="STYLE8">普通咖啡</div></td>
+              <td><div align="center" class="STYLE8">10元</div></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="STYLE8">浓缩咖啡</div></td>
+              <td><div align="center" class="STYLE8">15元</div></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="STYLE8">白咖啡</div></td>
+              <td><div align="center" class="STYLE8">18元</div></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="STYLE8">美式咖啡</div></td>
+              <td><div align="center" class="STYLE8">20元</div></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="STYLE8">拿铁咖啡</div></td>
+              <td><div align="center" class="STYLE8">22元</div></td>
+            </tr>
+              </table>
+        <table width="300" border="1">
+            <tr>
+              <td><p class="STYLE20">配料：牛奶，方糖，原味</p>
+              <p class="STYLE20">所有价格以中杯为参考，大、小杯各增减2元</p></td>
+            </tr>
+              </table>
+      </div>
+      <p align="center">&nbsp;</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    </div></td>
+    <td width="57%"><table width="370" border="1">
+      <tr>
+        <td colspan="2"><div align="center" class="STYLE8">
+          <div align="center">请选择您的咖啡</div>
+        </div></td>
+        </tr>
+      <tr>
+        <td width="102"><div align="center" class="STYLE19">
+          <div align="center">咖啡口味</div>
+        </div></td>
+        <td width="252"><form action="" method="post" name="form1" class="STYLE19" id="form1">
+          <label>
+            
+              <div align="center">
+                <select name="select" class="STYLE8">
+                  <option value="10">普通咖啡</option>
+                  <option value="15">浓缩咖啡</option>
+                  <option value="18">白咖啡</option>
+                  <option value="20">美式咖啡</option>
+                  <option value="22">拿铁咖啡</option>
+                </select>
+                </label>
+                    </div>
+        </form>        </td>
+      </tr>
+      <tr>
+        <td><div align="center" class="STYLE19">
+          <div align="center">杯具大小</div>
+        </div></td>
+        <td>          <div align="center"><span class="STYLE19">
+        </span><span class="STYLE19"></span></div>
+          <span class="STYLE19"><label class="STYLE18"></label>
+        </span>          <form action="" method="post" name="form2" class="STYLE19" id="form2">
+          <p align="center">
+            <label>
+              <input type="radio" name="RadioGroup1" value="2" />
+              大杯</label>
+            <input type="radio" name="RadioGroup1" value="0" />
+            中杯
+            <input type="radio" name="RadioGroup1" value="-2" />
+            小杯<br />
+            <label></label>
+            <br />
+          </p>
+        </form>        </td>
+      </tr>
+      <tr>
+        <td><div align="center" class="STYLE19">
+          <div align="center">配料</div>
+        </div></td>
+        <td><form action="" method="post" name="form3" class="STYLE19" id="form3">
+          <p align="center">
+            <label>
+              <input type="radio" name="RadioGroup2" value="1" />
+              牛奶</label>
+            <input type="radio" name="RadioGroup2" value="2" />
+            方糖
+            <input type="radio" name="RadioGroup2" value="3" />
+            原味<br />
+            <label></label>
+            <br />
+          </p>
+        </form>        </td>
+      </tr>
+      <tr>
+        <td><div align="center" class="STYLE19">
+          <div align="center">温度</div>
+        </div></td>
+        <td><form action="" method="post" name="form4" class="STYLE19" id="form4">
+          <p align="center">
+            <label>
+              <input type="radio" name="RadioGroup3" value="1" />
+              加热</label>
+            <input type="radio" name="RadioGroup3" value="0" />
+            常温
+            <input type="radio" name="RadioGroup3" value="-1" />
+            加冰<br />
+            <label></label>
+            <br />
+          </p>
+        </form>        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><form id="form5" name="form5" method="post" action="">
+          <label></label>
+          
+            <div align="center">
+              <input type="submit" name="Submit" value="确定" />
+              </div>
+        </form>        </td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
