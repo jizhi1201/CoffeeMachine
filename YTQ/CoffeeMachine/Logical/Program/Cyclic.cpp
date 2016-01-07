@@ -10,5 +10,6 @@ myRobot robot;
 
 void _CYCLIC ProgramCyclic(void)
 {
+	Input();
 	robot.Operation();
 }

@@ -9,6 +9,7 @@
   </Objects>
   <Configuration>
     <AutomationRuntime Version="H4.23" />
+    <Build AnsicIncludeDirectories="\Logical\Program\eigen-eigen-b30b87236a1b\" GccVersion="4.1.2" />
     <DefaultTargetMemory Tasks="UserROM" />
   </Configuration>
 </Cpu>

@@ -18,7 +18,6 @@ CS::CS()
 		x=0;
 		y=0;
 		angle=0;
-		//mov(3,3);
 	}
 
 /*@note
@@ -30,15 +29,6 @@ void CS::Set(char n[11],float a,float b,float c)
 		x=a;
 		y=b;
 		angle=c;
-		/*mov(0,0)=cos(angle);
-		mov(0,1)=sin(angle);
-		mov(0,2)=x;
-		mov(1,0)=-sin(angle);
-		mov(1,1)=cos(angle);
-		mov(1,2)=y;
-		mov(2,0)=0;
-		mov(2,1)=0;
-		mov(2,2)=1;*/
 	}
 
 /*@note
@@ -64,11 +54,11 @@ void CS::Insert(float a,float b)
 void CS::Transform()
 	{
 		MatrixXd mov(3,3);
-		mov(0,0)=cos(angle);
-		mov(0,1)=sin(angle);
+		mov(0,0)=cos(angle*0.0174533);
+		mov(0,1)=sin(angle*0.0174533);
 		mov(0,2)=x;
-		mov(1,0)=-sin(angle);
-		mov(1,1)=cos(angle);
+		mov(1,0)=-sin(angle*0.0174533);
+		mov(1,1)=cos(angle*0.0174533);
 		mov(1,2)=y;
 		mov(2,0)=0;
 		mov(2,1)=0;
@@ -79,15 +69,16 @@ void CS::Transform()
 		coor_TCS(2,0)=1;
 		MatrixXd coor_WCS(3,1);
 		coor_WCS=mov*coor_TCS;
-		if((coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))>=400)    //這裡假定機器人兩個手臂的長度都是10，所以半徑20的圓以外的地方是到不了的 
+		if((coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))>400)    //這裡假定機器人兩個手臂的長度都是10，所以半徑20的圓以外的地方是到不了的 
 			{
 				cout<<"Robot can't reach that point!"<<endl;
+				robot.Set(90,180);
 			}
 		else
 			{
 				cout<<"The coordinates of the Robot in WCS are shown as below:"<<endl<<"("<<coor_WCS(0,0)<<","<<coor_WCS(1,0)<<")"<<endl;
-				robot.Set(acos(sqrt(coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))/20)+atan(coor_WCS(1,0)/coor_WCS(0,0)),\
-				2*(90-acos(sqrt(coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))/20)));
+				robot.Set((acos(sqrt(coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))/20)+atan(coor_WCS(1,0)/coor_WCS(0,0)))*57.29578,\
+				(2*(1.5707963-acos(sqrt(coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))/20)))*57.29578);
 			}
 	}
 
@@ -102,7 +93,7 @@ myRobot::myRobot()
 		angle2=180;
 		CS* p;
 		p=new CS;
-		char str[3]={'W','C','S'};
+		char str[4]={'W','C','S','\0'};
 		p->Set(str,0,0,0);
 		cs_vector.push_back(*p);
 	}
@@ -121,7 +112,7 @@ void myRobot::Set(float a,float b)
 */	
 void myRobot::Operation()
 	{
-		input=Input();
+		
 		if(strcmp(input.OperationType,"S")==0)
 			{
 				CS* p;
