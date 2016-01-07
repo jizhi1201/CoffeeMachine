@@ -19,3 +19,17 @@ D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Temp\Simulation\Simulation
 
 Version : H4.23
 
+
+
+Thu Jan 07 19:45:49 2016
+COMMAND_TERMINATE
+
+
+Thu Jan 07 19:45:50 2016
+
+
+Thu Jan 07 19:45:50 2016
+COMMAND_TERMINATE
+
+
+Thu Jan 07 19:45:50 2016

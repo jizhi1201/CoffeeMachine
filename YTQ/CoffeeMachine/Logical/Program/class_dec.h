@@ -22,7 +22,6 @@ class CS
 			float x;
 			float y;
 			float angle;
-			//MatrixXd mov;
 			float para1;
 			float para2;
 	};

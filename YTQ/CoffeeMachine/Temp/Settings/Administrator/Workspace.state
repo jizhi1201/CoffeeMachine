@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.2.3.159?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\auxiliary.h" CaretLine="1" CaretColumn="1" FirstVisibleLine="11">
+  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\Cyclic.cpp" CaretLine="13" CaretColumn="10" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\auxiliary.cpp" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\auxiliary.h" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\class_def.cpp" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\auxiliary.cpp" CaretLine="8" CaretColumn="47" FirstVisibleLine="70">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\class_dec.h" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
+  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\class_def.cpp" CaretLine="1" CaretColumn="1" FirstVisibleLine="135">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\Cyclic.cpp" CaretLine="14" CaretColumn="20" FirstVisibleLine="1">
+  <TextEdit ID="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\class_dec.h" CaretLine="24" CaretColumn="16" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
 </State>
