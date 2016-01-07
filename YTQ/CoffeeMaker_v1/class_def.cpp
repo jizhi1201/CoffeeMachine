@@ -18,7 +18,6 @@ CS::CS()
 		x=0;
 		y=0;
 		angle=0;
-		//mov(3,3);
 	}
 
 /*@note
@@ -30,15 +29,6 @@ void CS::Set(char n[11],float a,float b,float c)
 		x=a;
 		y=b;
 		angle=c;
-		/*mov(0,0)=cos(angle);
-		mov(0,1)=sin(angle);
-		mov(0,2)=x;
-		mov(1,0)=-sin(angle);
-		mov(1,1)=cos(angle);
-		mov(1,2)=y;
-		mov(2,0)=0;
-		mov(2,1)=0;
-		mov(2,2)=1;*/
 	}
 
 /*@note
@@ -64,11 +54,13 @@ void CS::Insert(float a,float b)
 void CS::Transform()
 	{
 		MatrixXd mov(3,3);
-		mov(0,0)=cos(angle);
-		mov(0,1)=sin(angle);
+		//cout<<angle<<endl;
+		mov(0,0)=cos(angle*0.0174533);
+		//cout<<mov(0,0)<<endl;
+		mov(0,1)=sin(angle*0.0174533);
 		mov(0,2)=x;
-		mov(1,0)=-sin(angle);
-		mov(1,1)=cos(angle);
+		mov(1,0)=-sin(angle*0.0174533);
+		mov(1,1)=cos(angle*0.0174533);
 		mov(1,2)=y;
 		mov(2,0)=0;
 		mov(2,1)=0;
@@ -127,6 +119,7 @@ void myRobot::Operation()
 				CS* p;
 				p=new CS;
 				p->Set(input.CSName,input.para1,input.para2,input.para3);
+				//cout<<input.CSName<<endl<<input.para1<<endl<<input.para2<<endl<<input.para3<<endl;
 				cs_vector.push_back(*p);
 			}
 		else

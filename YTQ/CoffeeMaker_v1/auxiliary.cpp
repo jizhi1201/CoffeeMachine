@@ -9,20 +9,25 @@ InputCom Input()
 		cout<<"Input OperationType 'S'or'M':"<<endl;
 		cin>>str;
 		strcpy(input.OperationType,str);
+		//cout<<input.OperationType<<endl;
 		cout<<"Input CSName:"<<endl;
 		cin>>str;
 		strcpy(input.CSName,str);
+		//cout<<input.CSName<<endl;
 		cout<<"Input para1:"<<endl;
 		cin>>str;
 		input.para1=Extraction(str);
+		//cout<<input.para1<<endl;
 		cout<<"Input para2:"<<endl;
 		cin>>str;
 		input.para2=Extraction(str);
+		//cout<<input.para2<<endl;
 		if(strcmp(input.OperationType,"S")==0)
 			{
 				cout<<"Input para3:"<<endl;
 				cin>>str;
 				input.para3=Extraction(str);
+				//cout<<input.para3<<endl;
 				return input;
 			}
 		else

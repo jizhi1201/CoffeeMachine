@@ -4,7 +4,7 @@ Name=CoffeeMaker_v1
 Type=1
 Ver=2
 ObjFiles=
-Includes=C:\Users\Administrator\Desktop\Œ•rÜ›¼ş¿ØÖÆ\×÷˜I\CoffeeMaker_v1\eigen-eigen-b30b87236a1b
+Includes=D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMaker_v1\eigen-eigen-b30b87236a1b
 Libs=
 PrivateResource=
 ResourceIncludes=
@@ -28,7 +28,7 @@ Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSettings=0000000000000000001000000
 UnitCount=5
 
 [VersionInfo]
