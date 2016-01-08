@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>coffemachine</title>
+<style type="text/css">
+<!--
+.STYLE2 {
+	font-size: xx-large;
+	font-family: "宋体";
+	font-weight: bold;
+	color: #0000CC;
+}
+body {
+	background-image: url(06.jpg);
+}
+.STYLE4 {
+	font-size: xx-large;
+	font-family: "宋体";
+	font-weight: bold;
+	font-style: italic;
+}
+.STYLE8 {font-family: "宋体"; font-weight: bold; font-size: x-large; }
+.STYLE18 {font-size: x-large; font-family: "宋体";}
+.STYLE19 {font-size: medium; font-family: "宋体"; font-weight: bold; }
+.STYLE20 {color: #FF0000}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('meishi1.png','putong1.png','nongsuo1.png','bai1.png','natei1.png')">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div align="center"><span class="STYLE2">欢迎来到小咔自动咖啡馆
+  </span> &nbsp;&nbsp;&nbsp;
+</div>
+<table width="100%" height="548" border="0">
+  <tr>
+    <td width="49%"><div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <p align="center"><span class="STYLE4">菜单menu</span>&nbsp;</p>
+      <div align="center">
+        <table width="300" height="200" border="1">
+            <tr>
+              <td><div align="center" class="STYLE8"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','putong1.png',1)"><img src="putong.png" name="Image2" width="102" height="28" border="0" id="Image2" /></a></div></td>
+              <td><div align="center" class="STYLE8">10元</div></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="STYLE8"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','nongsuo1.png',1)"><img src="nongsuo-.png" name="Image3" width="105" height="27" border="0" id="Image3" /></a></div></td>
+              <td><div align="center" class="STYLE8">15元</div></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="STYLE8"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','bai1.png',1)"><img src="bai.png" name="Image4" width="79" height="25" border="0" id="Image4" /></a></div></td>
+              <td><div align="center" class="STYLE8">18元</div></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="STYLE8"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image1','','meishi1.png',1)"><img src="meishi.png" name="Image1" width="108" height="24" border="0" id="Image1" /></a></div></td>
+              <td><div align="center" class="STYLE8">20元</div></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="STYLE8"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image5','','natei1.png',1)"><img src="natie.png" name="Image5" width="103" height="25" border="0" id="Image5" /></a></div></td>
+              <td><div align="center" class="STYLE8">22元</div></td>
+            </tr>
+          </table>
+        <table width="300" border="1">
+            <tr>
+              <td><p class="STYLE20">配料：牛奶，方糖，原味</p>
+              <p class="STYLE20">所有价格以中杯为参考，大、小杯各增减2元</p></td>
+            </tr>
+          </table>
+      </div>
+      <p align="center">&nbsp;</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    </div></td>
+    <td width="51%"><table width="370" border="1">
+      <tr>
+        <td colspan="2"><div align="center" class="STYLE8">
+          <div align="center">请选择您的咖啡</div>
+        </div></td>
+        </tr>
+      <tr>
+        <td width="102"><div align="center" class="STYLE19">
+          <div align="center">咖啡口味</div>
+        </div></td>
+        <td width="252"><form action="" method="post" name="form1" class="STYLE19" id="form1">
+          <label>
+            
+              <div align="center">
+                <select name="select" class="STYLE8">
+                  <option value="10">普通咖啡</option>
+                  <option value="15">浓缩咖啡</option>
+                  <option value="18">白咖啡</option>
+                  <option value="20">美式咖啡</option>
+                  <option value="22">拿铁咖啡</option>
+                </select>
+                </label>
+              </div>
+        </form>        </td>
+      </tr>
+      <tr>
+        <td><div align="center" class="STYLE19">
+          <div align="center">杯具大小</div>
+        </div></td>
+        <td>          <div align="center"><span class="STYLE19">
+        </span><span class="STYLE19"></span></div>
+          <span class="STYLE19"><label class="STYLE18"></label>
+        </span>          <form action="" method="post" name="form2" class="STYLE19" id="form2">
+          <p align="center">
+            <label>
+              <input type="radio" name="RadioGroup1" value="2" />
+              大杯</label>
+            <input type="radio" name="RadioGroup1" value="0" />
+            中杯
+            <input type="radio" name="RadioGroup1" value="-2" />
+            小杯<br />
+            <label></label>
+            <br />
+          </p>
+        </form>        </td>
+      </tr>
+      <tr>
+        <td><div align="center" class="STYLE19">
+          <div align="center">配料</div>
+        </div></td>
+        <td><form action="" method="post" name="form3" class="STYLE19" id="form3">
+          <p align="center">
+            <label>
+              <input type="radio" name="RadioGroup2" value="1" />
+              牛奶</label>
+            <input type="radio" name="RadioGroup2" value="2" />
+            方糖
+            <input type="radio" name="RadioGroup2" value="3" />
+            原味<br />
+            <label></label>
+            <br />
+          </p>
+        </form>        </td>
+      </tr>
+      <tr>
+        <td><div align="center" class="STYLE19">
+          <div align="center">温度</div>
+        </div></td>
+        <td><form action="" method="post" name="form4" class="STYLE19" id="form4">
+          <p align="center">
+            <label>
+              <input type="radio" name="RadioGroup3" value="1" />
+              加热</label>
+            <input type="radio" name="RadioGroup3" value="0" />
+            常温
+            <input type="radio" name="RadioGroup3" value="-1" />
+            加冰<br />
+            <label></label>
+            <br />
+          </p>
+        </form>        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><form id="form5" name="form5" method="post" action="">
+          <label></label>
+          
+            <div align="center">
+              <input type="submit" name="Submit" value="确定" />
+              </div>
+        </form>        </td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
