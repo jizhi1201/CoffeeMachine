@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.3.159"?>
+<LibraryInfos>
+  <Library
+    Name="AsIecCon"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="astime"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="Operator"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
+    Name="Runtime"
+    IsDeployed="false"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+</LibraryInfos>

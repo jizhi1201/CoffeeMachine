@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.3.159"?>
+<Objects>
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package"
+    LastWriteTime="130964590000000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="130964590000000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Runtime\Binary.lby"
+    LogicalPath="Libraries.Runtime"
+    Type="Library"
+    LastWriteTime="130964590000000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Runtime\runtime.var"
+    LogicalPath="Libraries.Runtime.runtime.var"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Runtime\runtime.typ"
+    LogicalPath="Libraries.Runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Runtime\runtime.fun"
+    LogicalPath="Libraries.Runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Operator\Binary.lby"
+    LogicalPath="Libraries.Operator"
+    Type="Library"
+    LastWriteTime="130964590000000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Operator\operator.fun"
+    LogicalPath="Libraries.Operator.operator.fun"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="130964590000000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="130964590000000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\ANSIC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="130964702100000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\Cyclic.cpp"
+    LogicalPath="Program.Cyclic.cpp"
+    Type="File"
+    LastWriteTime="130964699300000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\Init.cpp"
+    LogicalPath="Program.Init.cpp"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\Exit.cpp"
+    LogicalPath="Program.Exit.cpp"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="true" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="true" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\auxiliary.cpp"
+    LogicalPath="Program.auxiliary.cpp"
+    Type="File"
+    LastWriteTime="130941275060000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\auxiliary.h"
+    LogicalPath="Program.auxiliary.h"
+    Type="File"
+    LastWriteTime="130941319880000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\class_dec.h"
+    LogicalPath="Program.class_dec.h"
+    Type="File"
+    LastWriteTime="130941282960000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Program\class_def.cpp"
+    LogicalPath="Program.class_def.cpp"
+    Type="File"
+    LastWriteTime="130941319160000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\Config.pkg"
+    LogicalPath="Simulation"
+    Type="Configuration"
+    LastWriteTime="130964590000000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\Hardware.hw"
+    LogicalPath="Simulation.Hardware.hw"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\Hardware.hwl"
+    LogicalPath="Simulation.Hardware.hwl"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\PC_any\Cpu.pkg"
+    LogicalPath="Simulation.PC_any"
+    Type="Cpu"
+    LastWriteTime="130964590000000000" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\PC_any\Cpu.sw"
+    LogicalPath="Simulation.PC_any.Cpu.sw"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\PC_any\Cpu.per"
+    LogicalPath="Simulation.PC_any.Cpu.per"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\PC_any\IoMap.iom"
+    LogicalPath="Simulation.PC_any.IoMap.iom"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\PC_any\PvMap.vvm"
+    LogicalPath="Simulation.PC_any.PvMap.vvm"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Physical\Simulation\Hardware.jpg"
+    LogicalPath="Simulation.Hardware.jpg"
+    Type="File"
+    LastWriteTime="130964703680000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    LogicalPath="AsIecCon.h"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\astime\SG4\astime.h"
+    LogicalPath="astime.h"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Operator\SG4\Operator.h"
+    LogicalPath="Operator.h"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+  <Object
+    Path="D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Logical\Libraries\Runtime\SG4\Runtime.h"
+    LogicalPath="Runtime.h"
+    Type="File"
+    LastWriteTime="130964590000000000"
+    Private="false" />
+</Objects>

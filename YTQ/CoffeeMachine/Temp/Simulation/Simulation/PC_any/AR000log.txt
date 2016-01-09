@@ -1,0 +1,35 @@
+
+
+Tue Jan 05 20:02:00 2016
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Tue Jan 05 20:02:00 2016
+COMMAND_COLDSTART
+InstanceName : 01d147b0e26103c0
+
+WorkingPath :
+D:\Local_Repositories\CoffeeMachine\YTQ\CoffeeMachine\Temp\Simulation\Simulation\PC_any\
+
+
+
+Tue Jan 05 20:02:00 2016
+COMMAND_COLDSTART
+Version : H4.23
+
+
+
+Tue Jan 05 20:42:32 2016
+COMMAND_TERMINATE
+
+
+Tue Jan 05 20:42:33 2016
+
+
+Tue Jan 05 20:42:33 2016
+COMMAND_TERMINATE
+
+
+Tue Jan 05 20:42:33 2016

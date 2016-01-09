@@ -1,0 +1,64 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>coffeemachine</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-size: x-large;
+	color: #000000;
+}
+body {
+	background-image: url(2531170_163447799295_2.jpg);
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+}
+.STYLE1 {
+	font-family: "宋体";
+	font-size: xx-large;
+	font-weight: bold;
+}
+.STYLE2 {color: #FF0099}
+.STYLE3 {
+	font-family: "新宋体";
+	font-weight: bold;
+	font-style: italic;
+	font-size: xx-large;
+}
+.STYLE4 {color: #0000FF}
+-->
+</style></head>
+
+<body>
+ <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="STYLE1"><span class="STYLE2">欢迎来到小咔自动咖啡馆</span></span><br />
+</p>
+ <p><span class="STYLE3">&nbsp;<span class="STYLE4">菜单（menu）</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+ <table width="200" height="252" border="1">
+   <tr>
+     <td width="113"><div align="center"><strong>普通咖啡</strong></div></td>
+     <td width="71"><div align="center"><strong>10元</strong></div></td>
+   </tr>
+   <tr>
+     <td><div align="center"><strong>浓缩咖啡</strong></div></td>
+     <td><div align="center"><strong>15元</strong></div></td>
+   </tr>
+   <tr>
+     <td><div align="center"><strong>白咖啡</strong></div></td>
+     <td><div align="center"><strong>18元</strong></div></td>
+   </tr>
+   <tr>
+     <td><div align="center"><strong>美式咖啡</strong></div></td>
+     <td><div align="center"><strong>20元</strong></div></td>
+   </tr>
+   <tr>
+     <td><div align="center"><strong>拿铁咖啡</strong></div></td>
+     <td><div align="center"><strong>22元</strong></div></td>
+   </tr>
+ </table>
+ <table width="200" border="1">
+   <tr>
+     <td height="48">配料可选：牛奶，方糖，原味。</td>
+   </tr>
+ </table>
+ <p>&nbsp;</p>
+</body>
+</html>
