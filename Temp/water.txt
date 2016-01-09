@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<title>
+coffee
+</title>
+</head>
+
+<table>
+<tr>
+<td>
+<a href="body.html" target="body" >50ml</a>
+</td>
+<td>
+<a href="body.html" target="body" >65ml</a>
+</td><td>
+<a href="body.html" target="body" >80ml</a>
+</td>
+</tr>
+</table>
+
+
+</html>

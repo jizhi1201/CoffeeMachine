@@ -7,6 +7,7 @@ coffee
 </title>
 </head>
 
+
 <style type="text/css">
 <!--
 a:link {
@@ -22,25 +23,26 @@ a:active {
 text-decoration: none;
 }
 -->
-</style>
-<body background="choosecoffee.jpg">
-<table align='right'>
+</style >
+<body background="water.jpg">
+<table>
 <tr>
 <td>
-<a href="body.html" target="body" >拿铁咖啡</a>
+<a href="body.html" target="body" ><font color="#ffffff">50ml</font> </a>
 </td>
 </tr>
 <tr>
-<td>
-<a href="body.html" target="body" >美式咖啡</a>
-</td>
 </tr>
-<tr>
 <td>
-<a href="body.html" target="body" >卡布奇诺</a>
+<a href="body.html" target="body" ><font color="#ffffff">65ml</font></a>
+</td>
+<tr>
+</tr>
+<td>
+<a href="body.html" target="body" ><font color="#ffffff">80ml</font></a>
 </td>
 </tr>
 </table>
-
 </body>
+
 </html>
