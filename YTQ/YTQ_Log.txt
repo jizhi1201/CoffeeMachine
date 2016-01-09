@@ -13,3 +13,4 @@
 今天按照劉工給的方法將eigen的include路徑添加了進去，但是AS還是不認可eigen是工程的一部分。已給劉工發電郵，等待回信中。
 2016.01.09
 因為劉工沒有回復我，所以準備調過eigen庫自己寫矩陣變換，但是在linking時出現了這個報錯“bur_cpp.c (.text+0xaf) : Error : undefined reference to `bur_heap_size'”，完全不知道這是怎麼回事。
+嘗試添加一個VNC，然後又報錯了，明天跑一下例子，看看還會不會報錯。
