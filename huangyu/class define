@@ -1,1 +1,116 @@
+#include<iostream>
+#include <Eigen/Dense>
+#include <math.h>
+#include <vector>
+using namespace std;
+using namespace Eigen;
+using Eigen::MatrixXd;
+const double Dk=3.1415926/180;
 
+//定义Frame（二维笛卡尔坐标系）类 
+class Frame{
+	private:
+		double Ox;
+		double Oy;//Frame对象在WF(世界坐标系)下的原点坐标 
+		double Angle;//方位角(弧度制) 
+	public:
+		Frame();
+		Frame(double ox,double oy,double an);
+		MatrixXd CalPose();//获得齐次位姿矩阵 
+};
+Frame::Frame() {
+	Ox=0;Oy=0;Angle=0;
+}
+Frame::Frame(double ox,double oy,double an){
+	Ox=ox;Oy=oy;Angle=an*Dk;//输入为角度制 
+}
+MatrixXd Frame::CalPose(){
+	MatrixXd Pose(3,3);
+	Pose(0,0)=cos(Angle);Pose(0,1)=-sin(Angle);Pose(0,2)=Ox;
+	Pose(1,0)=sin(Angle);Pose(1,1)=cos(Angle);Pose(1,2)=Oy;
+	Pose(2,0)=0;Pose(2,1)=0;Pose(2,2)=1;
+	return Pose; 
+}//由原点和方位角计算位姿矩阵 
+//Frame定义结束 
+
+
+//定义Solver（运动学求解器）类
+class Solver{
+	private:
+		vector<Frame>  frameVec;
+	public:
+		MatrixXd CalTheta(double l1,double l2,Frame frame,double px,double py);//运动学反解 
+		void addFrame(Frame frame);//添加任务框 
+		void deleteFrame();	//移除任务框 	
+}; 
+MatrixXd Solver::CalTheta(double l1,double l2,Frame frame,double px,double py) {
+	MatrixXd P_task(3,1),P_world(3,1),T(2,1);
+	P_task(0,0)=px;P_task(1,0)=py;P_task(2,0)=1;
+	P_world=frame.CalPose()*P_task;
+    T(0,0)=acos((px*px+py*py-l1*l1-l2*l2)/2/l1/l2);//取0°到180° 
+    double beta=atan2(py,px); 
+    double lp=sqrt(px*px+py*py);//端点模值 
+    double fea=acos((lp*lp+l1*l1-l2*l2)/2/l1/lp);
+    T(1,0)=beta-fea;
+	return T;
+}
+void Solver::addFrame(Frame frame) {
+    frameVec.push_back(frame);
+} 
+void Solver::deleteFrame() {
+    frameVec.pop_back();
+}
+//Solver类定义结束 
+
+
+
+//定义Robot类
+class Robot{
+	public:
+		double L1;
+		double L2;//臂长 
+		double theta1;
+		double theta2;//SCARA关节变量 （弧度角） 
+	
+		Robot();
+		Robot(double l1,double l2,double t1,double t2);
+		Vector2d getTerminal();//手臂末端的世界坐标（笛卡尔坐标） ，正运动学计算 
+		void ShowState();//状态显示 
+		void PTPmove(Frame frame,double px,double py);//点到点运动 
+				
+}; 
+Robot::Robot() {
+	L1=10;L2=10;theta1=0;theta2=0; 
+};
+Robot::Robot(double l1,double l2,double t1,double t2){
+	L1=l1;L2=l2;theta1=t1*Dk;theta2=t2*Dk;//输入为角度制角 
+}
+Vector2d  Robot::getTerminal() {
+	double Tx,Ty;
+	Tx=L1*cos(theta1)+L2*cos(theta1+theta2);
+	Ty=L1*sin(theta1)+L2*sin(theta1+theta2);
+	Vector2d T(Tx,Ty);
+	return T;
+}
+void Robot::ShowState(){
+	cout<<"theta1="<<theta1/Dk<<endl<<"theta2="<<theta2/Dk<<endl;
+}
+void Robot::PTPmove(Frame frame,double px,double py){
+	Solver solver;
+	MatrixXd T(2,1);
+    T=solver. CalTheta(L1,L2,frame,px,py);
+    theta1=T(0,0);theta2=T(1,0);
+}
+//Robot定义结束
+
+
+int main(){
+	Robot myRobot(12,12,0,30);//构造Robot对象 
+	Frame TF1(1,2,30),TF2(-2,0,12),TF3(0.5,1.5,90);//定义任务坐标系 
+	myRobot.ShowState();
+	myRobot.PTPmove(TF1,1,1);
+	myRobot.ShowState();
+	myRobot.PTPmove(TF2,0,1);
+	myRobot.ShowState();
+	return 0;
+}
