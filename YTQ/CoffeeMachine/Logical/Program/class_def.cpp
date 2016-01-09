@@ -52,8 +52,8 @@ void CS::Insert(float a,float b)
 	將該坐標系下的坐標變換至世界坐標系并更新關節坐標系中的坐標值
 */ 
 void CS::Transform()
-	{
-		MatrixXd mov(3,3);
+{
+		/*MatrixXd mov(3,3);
 		mov(0,0)=cos(angle*0.0174533);
 		mov(0,1)=sin(angle*0.0174533);
 		mov(0,2)=x;
@@ -68,19 +68,25 @@ void CS::Transform()
 		coor_TCS(1,0)=para2;
 		coor_TCS(2,0)=1;
 		MatrixXd coor_WCS(3,1);
-		coor_WCS=mov*coor_TCS;
-		if((coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))>400)    //這裡假定機器人兩個手臂的長度都是10，所以半徑20的圓以外的地方是到不了的 
-			{
-				cout<<"Robot can't reach that point!"<<endl;
-				robot.Set(90,180);
-			}
-		else
-			{
-				cout<<"The coordinates of the Robot in WCS are shown as below:"<<endl<<"("<<coor_WCS(0,0)<<","<<coor_WCS(1,0)<<")"<<endl;
-				robot.Set((acos(sqrt(coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))/20)+atan(coor_WCS(1,0)/coor_WCS(0,0)))*57.29578,\
-				(2*(1.5707963-acos(sqrt(coor_WCS(0,0)*coor_WCS(0,0)+coor_WCS(1,0)*coor_WCS(1,0))/20)))*57.29578);
-			}
+		coor_WCS=mov*coor_TCS;*/
+		
+	float w_para1;
+	float w_para2;
+	w_para1=para1*cos(angle*0.0174533)+para2*sin(angle*0.0174533);
+	w_para2=-para1*sin(angle*0.0174533)+para2*cos(angle*0.0174533);
+	
+	if((w_para1*w_para1+w_para2*w_para2)>400)    //這裡假定機器人兩個手臂的長度都是10，所以半徑20的圓以外的地方是到不了的 
+	{
+		cout<<"Robot can't reach that point!"<<endl;
+		robot.Set(90,180);
 	}
+	else
+	{
+		cout<<"The coordinates of the Robot in WCS are shown as below:"<<endl<<"("<<w_para1<<","<<w_para2<<")"<<endl;
+		robot.Set((acos(sqrt(w_para1*w_para1+w_para2*w_para2)/20)+atan(w_para2/w_para1))*57.29578,\
+			(2*(1.5707963-acos(sqrt(w_para1*w_para1+w_para2*w_para2)/20)))*57.29578);
+	}
+}
 
 /**myRobot::Functions*****************************************************************************/
 

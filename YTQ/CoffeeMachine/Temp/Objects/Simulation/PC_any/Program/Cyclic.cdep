@@ -123,6 +123,7 @@ $(AS_GNU_INST_PATH)/include/c++/4.1.2/vector
 $(AS_GNU_INST_PATH)/include/c++/4.1.2/bits/stl_vector.h
 $(AS_GNU_INST_PATH)/include/c++/4.1.2/bits/stl_bvector.h
 $(AS_GNU_INST_PATH)/include/c++/4.1.2/bits/vector.tcc
+<<<<<<< HEAD
 $(AS_PROJECT_PATH)/Logical/Program/eigen-eigen-b30b87236a1b/Eigen/Dense
 $(AS_PROJECT_PATH)/Logical/Program/eigen-eigen-b30b87236a1b/Eigen/Core
 $(AS_PROJECT_PATH)/Logical/Program/eigen-eigen-b30b87236a1b/Eigen/src/Core/util/DisableStupidWarnings.h
@@ -285,4 +286,7 @@ $(AS_PROJECT_PATH)/Logical/Program/eigen-eigen-b30b87236a1b/Eigen/src/Eigenvalue
 $(AS_PROJECT_PATH)/Logical/Program/eigen-eigen-b30b87236a1b/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
 $(AS_PROJECT_PATH)/Logical/Program/eigen-eigen-b30b87236a1b/Eigen/src/Eigenvalues/RealQZ.h
 $(AS_PROJECT_PATH)/Logical/Program/eigen-eigen-b30b87236a1b/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+=======
+$(AS_GNU_INST_PATH)/i386-elf/sys-include/math.h
+>>>>>>> YTQ
 $(AS_PROJECT_PATH)/Logical/Program/auxiliary.h
