@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.0.9.68"?>
+<Template>
+  <Property Name="Width" Value="160" />
+  <Property Name="Height" Value="80" />
+  <Property Name="AvailableForAllResolutions" Value="true" />
+  <Descriptions>
+    <Description Language="en" Value="Visualization template that includes basic resources. This template can be used to start with a customized GUI style." />
+    <Description Language="de" Value="Vorlage f&#252;r eine Visualisierung mit Basis Resourcen. Wird f&#252;r eine Visualisierung mit kundenspezifischer GUI verwendet." />
+  </Descriptions>
+</Template>

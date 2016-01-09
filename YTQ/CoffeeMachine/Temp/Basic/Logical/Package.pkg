@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.90.1?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="DataObject" Language="Vc" Description="640x480 (VGA)">VCSingle</Object>
+  </Objects>
+</Package>
