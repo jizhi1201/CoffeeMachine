@@ -3,11 +3,11 @@
 
 #include <iostream>
 #include <vector>
-#include <Eigen/Dense>
+//#include <Eigen/Dense>
 #include <math.h>
 
 using namespace std;
-using Eigen::MatrixXd;
+//using Eigen::MatrixXd;
 
 class CS
 	{
