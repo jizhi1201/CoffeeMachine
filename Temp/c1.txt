@@ -6,7 +6,6 @@
 coffee
 </title>
 </head>
-
 <style type="text/css">
 <!--
 a:link {
@@ -23,24 +22,7 @@ text-decoration: none;
 }
 -->
 </style>
-<body background="choosecoffee.jpg">
-<table align='right'>
-<tr>
-<td>
-<a href="body.html" target="body" >拿铁咖啡</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="body.html" target="body" >美式咖啡</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="body.html" target="body" >卡布奇诺</a>
-</td>
-</tr>
-</table>
-
+<body style="background-color:#66b3ff;">
+拿铁咖啡
 </body>
 </html>

@@ -6,22 +6,6 @@
 coffee
 </title>
 </head>
-<style type="text/css">
-<!--
-a:link {
-text-decoration: none;
-}
-a:visited {
-text-decoration: none;
-}
-a:hover {
-text-decoration: none;
-}
-a:active {
-text-decoration: none;
-}
--->
-</style>
 <body>
 <a  href="thank.html" target="_top">付款</a>
 </body>

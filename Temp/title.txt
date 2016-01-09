@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<title>
+coffee
+</title>
+</head>
+
+<table>
+<tr>
+<td>
+<a href="coffee.html" target="choose" >选择咖啡</a>
+</td>
+<td>
+<a href="water.html" target="choose" >水量</a>
+</td>
+<td>
+<a href="sager.html" target="choose" >加糖量</a>
+</td>
+</tr>
+</table>
+
+
+</html>
